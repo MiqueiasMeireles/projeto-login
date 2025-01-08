@@ -19,6 +19,17 @@
         float: right;
         width: 70%;
     }
+
+    div input {
+        background-color: #53aaa7;
+        font-size: 1em;
+        width: calc(100% - 44px);
+        height: 82%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        transform: translateY(-9px);
+    }
 }
 
 @media screen and (min-width: 992px) { /* Desktop e Grandes telas */
@@ -41,6 +52,17 @@
     #formulario {
         float: left;
         width: 50%;
+    }
+
+    div input {
+        background-color: #53aaa7;
+        font-size: 1em;
+        width: calc(100% - 44px);
+        height: 82%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        transform: translateY(-9px);
     }
 
     h1 {
