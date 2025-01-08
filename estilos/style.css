@@ -36,7 +36,7 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 
     transform: translate(-50%, -50%);
-    transition: widtNh 0.3s, height 0.3s;
+    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
 
@@ -67,7 +67,7 @@ p {
     border: 2px #5f2c82;
     display: block;
     width: 100%;
-    height: 40px;
+    height: 39px;
     border-radius: 8px;
     margin: 5px 0px;
 }
@@ -80,7 +80,7 @@ label {
     color: white;
     font-size: 2em;
     width: 40px;
-    padding: 5px;
+    padding: 6.5px;
     
     .material-symbols-outlined {
             font-variation-settings:
@@ -95,11 +95,11 @@ div input {
     background-color: #53aaa7;
     font-size: 1em;
     width: calc(100% - 44px);
-    height: 90%;
+    height: 82%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-5.9px);
+    transform: translateY(-7px);
 }
 
 .campo input:focus-within {
